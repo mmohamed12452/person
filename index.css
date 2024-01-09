@@ -1,0 +1,41 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+body
+{
+  font-family: Arial;
+}
+form
+{
+   background-color: lightcoral;
+   margin-left:500px;
+   margin-right:500px;
+   font-size: larger;
+   font-weight: bolder;
+}
+.container
+{
+  display:flex;
+  flex-direction: column;
+  width:25vw;
+}
+h1, p
+{
+   text-align: center;
+}
+input
+{
+  display:flex;
+  justify-content: space-between;
+  margin:0.25;
+  outline:none;
+  padding:0.5;
+  border:none;
+  background-color: rgb(225,225,225);
+  border-radius:0.24em;
+  color:black;
+}
+
+
